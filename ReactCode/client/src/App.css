@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.heading {
+  text-align: center;
+  color: #333;
+}
+
+.converter-box {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.label {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.text-input {
+  width: 100%;
+  height: 120px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.select-box {
+  margin-top: 16px;
+}
+
+.language-select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.convert-button {
+  margin-top: 16px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.convert-button:hover {
+  background-color: #45a049;
+}
+
+.error-message {
+  color: red;
+  margin-top: 8px;
+}
+
+.audio-list {
+  margin-top: 24px;
+}
+
+.audio-item {
+  margin-bottom: 16px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.audio-text {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.audio-player {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.delete-button {
+  padding: 8px 16px;
+  background-color: #FF1744;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #d32f2f;
+}
+
+.credit {
+  margin-top: 24px;
+  text-align: center;
+}
+
+.credit-link {
+  color: #333;
+  text-decoration: none;
+}
+
+.credit-link:hover {
+  text-decoration: underline;
+}
